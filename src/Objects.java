@@ -28,7 +28,7 @@ public class Objects {
 
 	// segundo menu - temperatura
 	public String tipoTemperatura() {
-		return (JOptionPane.showInputDialog(null, "Elija la temperatura que quiere convertir", "Monedas",
+		return (JOptionPane.showInputDialog(null, "Elija la temperatura que quiere convertir", "Temperatura",
 				JOptionPane.PLAIN_MESSAGE, null,
 				new Object[] { "De Celsius a Fahrenheit", "De Celsius a Kelvin", "De Fahrenheit a Celsius",
 						"De Fahrenheit a Kelvin", "De Kelvin a Celsius", "De Kelvin a Fahrenheit" },
@@ -37,7 +37,7 @@ public class Objects {
 
 	// tercer menu - binario
 	public String tipoNumero() {
-		return (JOptionPane.showInputDialog(null, "Elija la opcion a convertir", "Monedas", JOptionPane.PLAIN_MESSAGE,
+		return (JOptionPane.showInputDialog(null, "Elija la opcion a convertir", "Numero", JOptionPane.PLAIN_MESSAGE,
 				null, new Object[] { "De Decimal a Binario", "De Binario a Decimal" }, "Selecciona")).toString();
 	}
 
